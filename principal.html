@@ -1,0 +1,635 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <link rel="shortcut icon" href="assets/images/tanjiro.png" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <!-- Add icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="styles.css">
+  <title> 🐲Dragon Ball🐉 </title>
+</head>
+<style>
+  .container-fluid {
+    max-width: 80%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    overflow-x: hidden;
+  }
+
+  .card {
+    box-shadow: 0px 0px 10px rgba(183, 87, 87, 0.3);
+
+  }
+
+  .card-title {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .card-text {
+    font-size: 18px;
+    text-align: justify;
+  }
+
+  .carousel-inner .carousel-item img {
+    height: 550px !important;
+    width: 100%;
+    object-fit: fill;
+    object-position: center;
+  }
+
+  img {
+    height: 200px;
+    object-fit: cover;
+  }
+
+  #titulo{
+  text-align: center !important;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.Intro{
+  font-size:20px;
+}
+
+  iframe {
+    width: 100%;
+    height: 30vh;
+    border-radius: 25px;
+    margin: 5px;
+    padding: 5px;
+  }
+
+  .social {
+    color: #fff;
+    /* Color del texto */
+  }
+
+  .social i {
+    color: #f88f05ee;
+    /* Color de fondo de los iconos */
+  }
+
+  #footer a {
+    color: white;
+  }
+
+  @media (min-width: 320px) and (max-width: 768px) {
+    .container-fluid {
+      max-width: 100%;
+      overflow-x: hidden;
+      margin: 2px;
+    }
+
+    .carousel-inner .carousel-item img {
+      height: 200px !important;
+      width: 100%;
+      object-fit: fill;
+      object-position: center;
+    }
+
+    h1 {
+      font-size: 25px;
+    }
+    .Intro{
+  font-size:18px;
+}
+
+    .card {
+      margin: 2px;
+      width: 100%;
+
+    }
+
+    .card-body {
+      width: 100%;
+    }
+
+    .card-title {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .card-text {
+    font-size: 18px;
+    text-align: justify;
+  }
+
+
+    iframe {
+      width: 100%;
+      height: 30vh;
+      border-radius: 15px;
+    }
+
+    img {
+      height: 200px;
+      object-fit: cover;
+    }
+
+    #footer a {
+      color: white;
+    }
+  }
+</style>
+
+<body>
+  <!--Main Container-->
+  <div class="container-fluid">
+    <!--Header-->
+    <header>
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+            aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Dragon Ball</a>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="principal.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sobre_mi.html">About Me</a>
+              </li>
+
+            </ul>
+
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--Fin header-->
+    <!--Main- CARROUSEL-->
+    <main id="main">
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" data-pause="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block rounded" src="img/db1.jpg" alt="DB 1">
+          </div>
+          <div class="carousel-item ">
+            <img class="d-block rounded" src="img/db2.jpg" alt="DB 2">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block rounded" src="img/db3.jpg" alt="DB 3">
+          </div>
+          <div class="carousel-item ">
+            <img class="d-block rounded" src="img/db4.jpg" alt="DB 4">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block rounded" src="img/db5.jpg" alt="DB 5">
+          </div>
+          <div class="carousel-item ">
+            <img class="d-block rounded" src="img/db6.jpg" alt="DB 6">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block rounded" src="img/db7.jpg" alt="DB 7">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block  rounded" src="img/db8.jpg" alt="DB 8">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block rounded" src="img/db9.jpg" alt="DB 9">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block rounded" src="img/db10.jpg" alt="DB 10">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block rounded" src="img/db11.jpg" alt="DB 1">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block  rounded" src="img/db12.jpg" alt="DB 12">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block rounded" src="img/db13.jpg" alt="DB 13">
+          </div>
+
+
+        </div>
+      </div>
+    </main>
+    <br>
+    <!--Fin Main-->
+    <div class="mt-2 m-1 text-dark rounded text-center p-1">
+      <h1>Dragon Ball:</h1>
+      <p class="Intro"> Es un manga escrito e ilustrado por Akira Toriyama. Fue publicado originalmente en 
+        la revista Shōnen Jump, de la editorial japonesa Shueisha, entre 1984 y 1995. Su trama describe las aventuras 
+        de Goku, un guerrero saiyajin, experto en artes marciales que en su infancia inicia sus viajes y aventuras en 
+        las que pone a prueba y mejora sus habilidades de pelea, enfrentando oponentes y protegiendo a la Tierra de otros 
+        seres que quieren conquistarla y exterminar a la humanidad.
+      </p>
+
+      <p class="Intro"> Conforme transcurre la trama, conoce a otros personajes que le ayudan en este propósito. 
+        El nombre de la serie proviene de unas esferas mágicas que al ser reunidas invocan a un dragón que concede 
+        deseos. En varias ocasiones resultan útiles tanto para Gokū y sus amigos como para la humanidad, aunque también 
+        son procuradas de forma constante por algunos seres malignos. </p>
+      <p>
+        El manga tuvo 519 capítulos impresos recopilados en 42 volúmenes. Dos años después de su lanzamiento, Toei Animation 
+        estrenó una adaptación anime que abarcó aproximadamente la primera mitad de la obra. 
+      </p>
+      <p class="Intro">
+        Una vez concluida su transmisión en 1989 por el canal Fuji Television en Japón, Toei estrenó una continuación 
+        titulada Dragon Ball Z, la cual incorporó el contenido restante del manga. Un tercer anime producido por el mismo 
+        estudio se estrenó en 1996. Denominado Dragon Ball GT, posee un argumento inédito en cuya redacción no participó 
+        Toriyama. 
+        
+        En 2015 comenzó a emitirse Dragon Ball Super en Fuji Television, anime que continúa los sucesos de Dragon Ball Z 
+        y que cuenta con una adaptación al manga, publicada a partir de junio del mismo año en Shōnen Jump. <br>
+      </p>
+      <p class="Intro"> 
+        <strong>
+            "Dragon Ball Super: Broly" la mejor película de Dragon Ball, pues, tuvo aproximadamente el 82% de 
+            aprobación entre los fanáticos y conocedores, siendo esta una muy buena cifra para un anime. Este
+            largometraje acumula ya más de 103 millones de dólares a nivel mundial.
+        </strong>
+      </p>
+      <p class="Intro">
+        <strong>
+        Dragon Ball Super: Super Hero, un largometraje que lideró la taquilla en su debut, superando las expectativas 
+        de todos los fanáticos, pues recaudó alrededor de 21 millones de dólares en venta de boletos solo en norteamerica, 
+        y recaudó mas de 100.2 millones de dólares en todo el mundo.
+        </strong>
+      </p>
+    </div>
+
+    <!--Galeria Grupo Card #1- 1Ero-->
+    <h3 class="mb-3 pb-3 text-center">🐉Dragon Ball: Top Personajes Favoritos🐉</h3>
+    <div class="card-group">
+      <div class="card m-1 p-2">
+        <img class="card-img-top" src="https://i.pinimg.com/originals/aa/4c/22/aa4c22f8f88470e0b0aa94db0e49ebfa.gif"
+          alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Son Goku / Kakarotto</h5>
+          <p class="card-text"> Goku es el segundo hijo de Bardock y Gine, hermano menor de Raditz, 
+            nieto adoptivo de Son Gohan, esposo de Chi-Chi, padre de Son Gohan y Son Goten, a su vez 
+            también es el abuelo de Pan y ancestro de Son Goku Jr. Originalmente enviado a la Tierra 
+            como un infante volador con la misión de conquistarla. Sin emgargo terminó siendo el protector 
+            de dicho planeta y de todos sus habitantes.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+
+      <div class="card m-1 p-2">
+        <img class="card-img-top" src="https://i.pinimg.com/originals/b2/11/93/b2119348cd9ea254cf0de75f5a6846c3.gif" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Vegeta</h5>
+          <p class="card-text"> Vegeta nació alrededor del año 732. Su padre, el Rey Vegeta, era el rey de los Saiyan, 
+            convirtiendo a Vegeta en su príncipe. En su juventud, Vegeta vio cómo su padre tenía que dejar su orgullo 
+            de lado frente al Dios de la Destrucción, Beerus, para proteger a su especie. Aqui entendió que de vez en 
+            cuando debemos dejar nuestro orgullo de lado para proteger lo más preciado para nosotros.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+
+      <div class="card m-1 p-2">
+        <img class="card-img-top" src="https://i.pinimg.com/originals/ea/b9/67/eab967f308c14cdd14d6d85012593d61.gif"
+          alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Broly</h5>
+          <p class="card-text">Broly es un Saiyajin que posee un poder gigantesco e incontrolable, el cual se manifiesta 
+            en toda su magnitud cuando se convierte en el Super Saiyajin Legendario. Incluso cuando apenas era un bebé su 
+            nivel de poder alcanzaba cifras inmensas que provocaban asombro y preocupación entre los de su raza.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+   <!--Galeria Grupo Card #2 -->
+      <div class="card-group">
+        <div class="card m-1 p-2">
+          <img class="card-img-top" src="https://i.pinimg.com/originals/03/21/ff/0321ffd3017d67922f04b1ba042461f6.gif"
+            alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Son Gohan</h5>
+            <p class="card-text">Gohan Es el primer hijo de Son Goku y Chi-Chi, hermano mayor de Son Goten, 
+                esposo de Videl, con quien tiene una hija llamada Pan. Es mitad Saiyajin y mitad humano.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card m-1 p-2">
+          <img class="card-img-top"
+            src="https://i.pinimg.com/originals/e9/9e/12/e99e126d10fbf4b9b84783b033e6a4d2.gif"
+            alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Future Trunks</h5>
+            <p class="card-text">Future Trunks proviene de una versión del futuro donde la Tierra fue devastada 
+                por las despiadadas matanzas de los dos androides. Fue por los androides que Trunks tuvo que usar 
+                la máquina del tiempo de Bulma para llegar al presente y evitar que emergieran.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card m-1 p-2">
+          <img class="card-img-top" src="https://i.pinimg.com/originals/77/5e/3b/775e3b868caa45639394affef50780d0.gif"
+            alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Black Goku</h5>
+            <p class="card-text">Black Goku es en realidad Zamasu, quien obtuvo el cuerpo del saiyajin gracias a las 
+                súper esferas del dragón. Tras ello, eliminó al guerrero que protege la Tierra. También, gracias 
+                al anillo del tiempo, entró en contacto con otra versión de sí mismo.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+   <!--Galeria Grupo Card #3- -->
+        <div class="card-group">
+          <div class="card m-1 p-2">
+            <img class="card-img-top" src="https://i.pinimg.com/originals/05/14/c6/0514c63f3a76a5d1363537c8d1cb6032.gif"
+              alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Gogeta</h5>
+              <p class="card-text">Gogeta es el resultado de la fusión saiyana nacida mediante la unión entre Goku y Vegeta 
+                realizando la Danza de la Fusión de los metamoranos, existiendo como la contraparte de Vegetto, su 
+                Fusión Pothala.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+          <div class="card m-1 p-2">
+            <img class="card-img-top" src="https://i.pinimg.com/originals/a0/a9/ba/a0a9baee87842a3647d220559eaa8e2d.gif"
+              alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Freezer</h5>
+              <p class="card-text">Freezer es un alienígena mutante, brutal dictador y líder del Imperio Galáctico del Universo 7 
+                con el apoyo estratégico en secreto de su padre Cold.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+          <div class="card m-1 p-2">
+            <img class="card-img-top" src="https://i.pinimg.com/originals/43/25/a9/4325a9068be83d163612082117836cf5.gif"
+              alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Beerus</h5>
+              <p class="card-text">Beerus es el Dios de la Destrucción del séptimo universo, y su zona administrativa incluye a la Tierra. 
+                Él duerme desde hace varios años a varias décadas consecutivas, destruye planetas de su zona administrativa durante los pocos 
+                años que está despierto.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+
+   <!--Galeria Grupo Card #4--->
+            <div class="card-group">
+        <div class="card m-1 p-2">
+          <img class="card-img-top" src="https://i.pinimg.com/originals/f6/22/36/f6223615934acb1a0da2c32faaafde23.gif"
+            alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Caulifla</h5>
+            <p class="card-text">Caulifla es una forajida que tomó un territorio del Planeta Sadala, y creó una reputación para sí misma como 
+                una saiyajin que nadie podría derrotar, ni siquiera los miembros de las Fuerzas de Defensa de Sadala. Caulifla adoptó varios 
+                saiyajins del territorio para que fuesen sus subordinados, entre ellos Kale.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card m-1 p-2">
+          <img class="card-img-top"
+            src="https://i.pinimg.com/originals/a3/f2/4e/a3f24ea917432c81db2367538aefad56.gif"
+            alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Kale</h5>
+            <p class="card-text">Kale es una mujer saiyajin proveniente del Planeta Sadala del Universo 6, protegida de Caulifla y una participante 
+                del Torneo de la Fuerza como parte del Equipo del Universo 6. Es considerada la Super saiyajin Legendaria de su universo.</p>
+            <pclass="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card m-1 p-2">
+          <img class="card-img-top" src="https://i.pinimg.com/originals/08/45/15/0845157241840572d52df10462923b5d.gif"
+            alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Bardock</h5>
+            <p class="card-text">Bardock es un saiyajin de clase baja proveniente del Planeta Vegeta del Universo 7. Pertenece al Ejército Saiyano, que está bajo 
+                el liderazgo del Rey Vegeta, y es jefe de su escuadrón durante la anexión del planeta por parte de las fuerzas coloniales del Imperio de 
+                Freeza.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+
+       
+<!--Galeria Grupo Card #6--->
+          <div class="card-group">
+            <div class="card m-1 p-2">
+              <img class="card-img-top"
+                src="https://i.pinimg.com/originals/c2/7d/f5/c27df57f9db1639d65d64ed689cddb46.gif"
+                alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Hit</h5>
+                <p class="card-text">Hit nació 1000 años antes del Año 779, convirtiéndolo en una leyenda viviente. Se ganaba la vida como sicario 
+                    (asesino a sueldo) y jamás ha fallado en su trabajo, teniendo todo este tiempo para perfeccionar su técnica, el Salto Temporal.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+            <div class="card m-1 p-2">
+              <img class="card-img-top"
+                src="https://i.pinimg.com/originals/c7/7c/d7/c77cd7537183ccdf9d4c3809de60a1d7.gif"
+                alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Jiren</h5>
+                <p class="card-text">Jiren es un guerrero solitario, con una motivación pura de ser el más fuerte. Este deseo nació cuando un malhechor 
+                    asesinó cruelmente a sus padres, por lo que Jiren se dedicó a ser fuerte para vengarlos, pero muchos años después este mismo malhechor 
+                    mató a su maestro y compañeros.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+            <div class="card m-1 p-2">
+              <img class="card-img-top"
+                src="https://i.pinimg.com/originals/4a/dd/e3/4adde394be1730e53afe76811e2ef1ac.gif"
+                alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Cell</h5>
+                <p class="card-text">Cell es un bioandroide creado por la computadora del Dr. Gero, quien vino del futuro de la línea 3 con la 
+                    intención de vengarse de Goku por haber acabado con el Ejército del Listón Rojo, y con ello el sueño de todo villano: 
+                    dominar el mundo.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+
+                </div>
+              <br><br>
+              <!--Fin Galeria-->
+  
+              <!--Galeria de Videos-->
+
+
+              <h3 id="titulo" class="text-center">🐉Resumen de las Franquicias🐉</h3>
+              <hr>
+
+              <div class="card-group">
+                <div class="card">
+                  <iframe src="https://www.youtube.com/embed/ApxUCaQSltI" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                  <div class="card-body">
+                    <h5 class="card-title">Dragon Ball: Resumen Anime Completo</h5>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <iframe src="https://www.youtube.com/embed/0-eXBO0jbs4" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                  <div class="card-body">
+                    <h5 class="card-title">Dragon Ball Z: Resumen Anime Completo</h5>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <iframe src="https://www.youtube.com/embed/wyf2wi2u37M" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                  <div class="card-body">
+                    <h5 class="card-title">Dragon Ball Super: La Batalla De Los Dioses (2013)</h5>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+
+
+                <div class="card-group">
+                  <div class="card">
+                    <iframe src="https://www.youtube.com/embed/fu2cVpZXK2E" title="YouTube video player" frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen></iframe>
+                    <div class="card-body">
+                      <h5 class="card-title">Dragon Ball Super: La Resurrección De Freezer (2015)</h5>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <iframe src="https://www.youtube.com/embed/xHYRotTn8nE" title="YouTube video player" frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen></iframe>
+                    <div class="card-body">
+                      <h5 class="card-title">Dragon Ball Super: Broly (2018)</h5>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <iframe src="https://www.youtube.com/embed/CSf5gRy7FRw" title="YouTube video player" frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen></iframe>
+                    <div class="card-body">
+                      <h5 class="card-title">Dragon Ball Super: Super Hero (2022)</h5>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+            <hr />
+          </div>
+
+
+          <h3 id="titulo" class="text-center">🐲Ver todas las Franquicias🐲</h3>
+          <hr>
+          <!-- Boton Ver Serie-->
+
+          <div class="w-100 ">
+
+            <!-- Boton Ver Serie-->
+            <div class="text-center center-block">
+              <a href="https://www3.animeflv.net/anime/dragon-ball" target="_blank"
+                class="btn btn-danger btn-lg btn-block" tabindex="-1" role="button" aria-disabled="true">🍿Ver en Anime FLV (Dragon Ball)</a>
+            </div>
+            <br>
+
+            <div class="text-center center-block">
+              <a href="https://www3.animeflv.net/anime/dragon-ball-z"target="_blank" 
+              class="btn btn-danger btn-lg btn-block" tabindex="-1" role="button" aria-disabled="true">🍿Ver en Anime FLV (Dragon Ball Z)</a>
+            </div>
+            <br>
+
+            <div class="text-center center-block">
+              <a href="https://www3.animeflv.net/anime/dragon-ball-super" target="_blank"
+                class="btn btn-danger btn-lg btn-block" tabindex="-1" role="button" aria-disabled="true">🍿Ver en Anime FLV (Dragon Ball Super)</a>
+            </div>
+            <br>
+
+            <div class="text-center center-block">
+              <a href="https://www13.pelisplushd.to/pelicula/dragon-ball-super-broly" target="_blank"
+                class="btn btn-danger btn-lg btn-block" tabindex="-1" role="button" aria-disabled="true">🍿Ver en PelisPlus (Dragon Ball Super: Broly)</a>
+            </div>
+            <br>
+
+            <div class="text-center center-block">
+                <a href="https://www13.pelisplushd.to/pelicula/dragon-ball-super-super-hero" target="_blank"
+                  class="btn btn-danger btn-lg btn-block" tabindex="-1" role="button" aria-disabled="true">🍿Ver en PelisPlus (Dragon Ball Super: Super Hero)</a>
+              </div>
+
+            <!--Fin Boton Ver Serie-->
+
+
+            <!--Redes Sociales-->
+            <br>
+            <h3 class="text-center">Mis Redes Sociales</h3>
+            <hr />
+            <div class="text-center center-block">
+              <div class="social">
+                <a href="https://www.youtube.com/" target="_blank"><i
+                    class="fa fa-youtube-square fa-3x social"></i></a>
+                <a href="https://www.facebook.com/yeremy.rosadoarias.77?mibextid=ZbWKwL" target="_blank"><i
+                    class="fa fa-facebook-square fa-3x social"></i></a>
+                <a href="https://github.com/yere1223" target="_blank"><i
+                    class="fa fa-github-square fa-3x social"></i></a>
+              </div>
+
+            </div>
+            <hr />
+            <h4 class="text-center">Yeremy Rosado Arias <small>20-EISM-1-030. Sujeta a Derechos de Autor.</small></h4>
+            <!--Fin Redes Sociales-->
+
+            <!--Footer-->
+            <footer id="footer" class="pb-4 pt-4 bg-danger">
+              <div class="container">
+                <div class="row text-center">
+                  <div class=" col-12 col-lg">
+                    <a href="principal.html">Home</a>
+                  </div>
+                  <div class="col-12 col-lg">
+                    <a href="sobre_mi.html">About Me</a>
+                  </div>
+
+                </div>
+              </div>
+            </footer>
+            <!--Fin footer-->
+
+          </div>
+
+          <!--Main Container-->
+
+
+        </div>
+
+        <!-- Optional JavaScript -->
+        <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+          integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+          crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+          integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+          crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+          integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+          crossorigin="anonymous"></script>
+        <script src="index.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js "
+          integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc "
+          crossorigin="anonymous "></script>
+
+
+</body>
+
+</html>
